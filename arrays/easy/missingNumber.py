@@ -1,4 +1,4 @@
-# Leetcode - https://leetcode.com/problems/rotate-array/description/
+# Leetcode - https://leetcode.com/problems/missing-number/
 # Solution 1 (Brute Force) Complexity O(N^2)
 # ===========================================
 #   for each element in the array, run another loop from 1 to N to check the occourance of that number in touter loop of the array.

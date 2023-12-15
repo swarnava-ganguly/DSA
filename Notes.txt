@@ -1,0 +1,1 @@
+1. For any 'missing element' or 'number who appear once' in distinct numbers of array in the range [0, n],  hashing will be brute force, dictionary will be better and xor will be optimal
