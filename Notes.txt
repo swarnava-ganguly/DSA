@@ -1,1 +1,5 @@
 1. For any 'missing element' or 'number who appear once' in distinct numbers of array in the range [0, n],  hashing will be brute force, dictionary will be better and xor will be optimal
+2. For longest subarray problem for sum k, 2 forloop is the brute force, hashmap is the better, prefix sum approach is optimal once
+3. For problems like 3 numbers need to be sorted, use Dutch National flag algo with left=mid=0 and high=n-1. You move mid and left by one if a[mid] == 0 and swap the a[mid], a[left] values, move mid by one if a[mid] == 1, move high by -1 if a[mid] == 2
+4. For Majority element type problem where you need to find maximum occourance of an element in an array, brute force force will be using 2 forloops, using hasjing we can bring down to O(n) but space complexity willbe O(n). Optimal approach will be Moore's voting algorithm where the intution is if some element appear more than N/2 times, it will not get cancelled out
+
