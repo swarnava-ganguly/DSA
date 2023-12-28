@@ -1,6 +1,10 @@
 # Leetcode: https://leetcode.com/problems/longest-palindrome/description/?source=submission-ac
 # Complexity: O(n)
 # Space Complexity: O(n)
+# Intitution:
+#   Create Frequency for each character 
+#   Even number of characters can be taken as it is as these can be partition in 2 halves. 
+#   For odd number of characters take n-1 characters and add 1 at the end if we encounter any odd character 
 
 class Solution:
     def longestPalindrome(self, s: str) -> int:
