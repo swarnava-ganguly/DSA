@@ -7,11 +7,11 @@
 
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        maxi = nums[0]
         sum = 0
-        for num in nums:
-            sum = sum + num
+        maxsum = nums[0]
+        for i in range(0,len(nums)):
+            sum = sum +nums[i]
+            maxsum = max(maxsum,sum)
             if sum < 0:
                 sum = 0
-            maxi = max(maxi,sum)
-        return maxi
+        return maxsum

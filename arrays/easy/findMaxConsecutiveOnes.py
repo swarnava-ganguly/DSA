@@ -1,6 +1,4 @@
 # Leetcode - https://leetcode.com/problems/max-consecutive-ones/description/
-# Leetcode - https://leetcode.com/problems/rotate-array/description/
-# Complexity - O(n)
 # Complexity - O(n)
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:

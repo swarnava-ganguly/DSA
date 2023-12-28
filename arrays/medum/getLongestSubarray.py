@@ -13,8 +13,8 @@ def getLongestSubarray(nums: [int], k: int) -> int:
     for i in range(0,len(nums)):
         sum = sum+nums[i]
         rem = sum - k
-        if sum == k:
-            maxlen = max(maxlen,i+1)
+        if sum == k: # it checks if array from the start till end giving you the sum. Edge case
+            maxlen = max(maxlen,i+1) 
         if rem in d:
             len1 = i - d[rem]
             maxlen = max(maxlen,len1)
